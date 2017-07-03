@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:ignore="ObsoleteLayoutParam">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bdbdbd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="#e0e0e0"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="个人信息"
+            android:textColor="#4fc3f7"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bdbdbd" />
+
+        <TextView
+            android:id="@+id/tv_me_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/front"
+            android:onClick="meClick"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="个人信息"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bdbdbd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="#e0e0e0"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="应用信息"
+            android:textColor="#4fc3f7"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bdbdbd" />
+
+        <TextView
+            android:id="@+id/tv_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/front"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="版本更新"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bdbdbd"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/front"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="关于我们"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bdbdbd" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_bt_logout"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="退出当前账号"
+            android:textColor="#4fc3f7" />
+    </LinearLayout>
+</LinearLayout>

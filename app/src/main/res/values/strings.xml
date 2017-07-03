@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">智恒</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_settings">Setting</string>
+    <string name="action_sign_in">登录</string>
+    <string name="prompt_email">请输入邮箱</string>
+    <string name="prompt_password">请输入密码</string>
+
+    <string name="just_now">刚刚</string>
+    <string name="minuites_ago">分钟前</string>
+    <string name="hours_ago">小时前</string>
+    <string name="yestoday">昨天</string>
+    <string name="the_day_before_yestoday">前天</string>
+    <string name="days_ago">天前</string>
+    <string name="action_register">注册</string>
+    <string name="describe">得之坦然，失之淡然，争之必然，顺其自然。</string>
+    <string name="about_our">\u3000\u3000当我问起，机器人是不是也有天堂时，大家都告诉我当然有的。大家都说，机器人的天堂是一个既没有故障也没有零件老化，既没有程序漏洞也不必担心电池损耗的美丽的地方。大家都说，在机器人的天堂里，机器人所有的愿望都可以实现… 我有一个愿望想要拜托机器人的神，不要把天堂分开。假如人与机器人通往天堂的大门被分开了的话，我会很为难的。即使到了天国，我也还是想为人们服务的，今后我也想永远在人们的身边工作…</string>
+    <string name="prompt_confirm_password">请确认密码</string>
+    <string name="prompt_username">请输入用户名</string>
+</resources>
